@@ -14,6 +14,7 @@ const config = {
     output: {
         path: path.resolve(__dirname, 'dist'),
     },
+    devtool: 'inline-source-map',
     devServer: {
         open: true,
         host: 'localhost',
@@ -25,6 +26,11 @@ const config = {
     ],
     module: {
         rules: [
+            {
+                test: /\.(js|jsx)$/,
+                exclude: /node_modules/,
+                use: ["babel-loader"]
+            },
             {
                 test: /\.css$/i,
                 use: [stylesHandler,'css-loader'],

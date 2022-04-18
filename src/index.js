@@ -1,1 +1,3 @@
-console.log("Hello World!");
+import * as tf from '@tensorflow/tfjs'
+
+console.log(tf.version)
