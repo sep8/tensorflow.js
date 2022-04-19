@@ -29,7 +29,7 @@ const config = {
             {
                 test: /\.(js|jsx)$/,
                 exclude: /node_modules/,
-                use: ["babel-loader"]
+                use: ["ify-loader", "babel-loader"]
             },
             {
                 test: /\.css$/i,

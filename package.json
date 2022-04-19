@@ -29,6 +29,7 @@
     "babel-loader": "^8.2.4",
     "css-loader": "^6.7.1",
     "html-webpack-plugin": "^5.5.0",
+    "ify-loader": "^1.1.0",
     "mini-css-extract-plugin": "^2.6.0",
     "sass": "^1.50.0",
     "sass-loader": "^12.6.0",
@@ -38,6 +39,7 @@
     "webpack-dev-server": "^4.8.1"
   },
   "dependencies": {
-    "@tensorflow/tfjs": "^3.15.0"
+    "@tensorflow/tfjs": "^3.15.0",
+    "plotly.js-dist-min": "^2.11.1"
   }
 }
