@@ -1,0 +1,35 @@
+{
+  "name": "tensorflow.js",
+  "version": "1.0.0",
+  "description": "Learn how to use tensorflow.js",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "rollup --config"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sep8/tensorflow.js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sep8/tensorflow.js/issues"
+  },
+  "homepage": "https://github.com/sep8/tensorflow.js#readme",
+  "devDependencies": {
+    "@babel/core": "^7.17.9",
+    "@babel/preset-env": "^7.16.11",
+    "@rollup/plugin-babel": "^5.3.1",
+    "@rollup/plugin-commonjs": "^21.1.0",
+    "@rollup/plugin-html": "^0.2.4",
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-node-resolve": "^13.2.1",
+    "plotly": "^1.0.6",
+    "rollup": "^2.70.2",
+    "rollup-plugin-serve": "^1.1.0"
+  },
+  "dependencies": {
+    "@tensorflow/tfjs": "^2.0.0"
+  }
+}
